@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Marmelad', 'Khula', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #f0f0f0;
+}
+
+.jumbotron {
+	font-size: 20px;
+	/*background: url(https://www.indopremier.com/ipotnews/images/news/20200116-124216-market-1-edit-zip.jpg);*/
+	/*background: url(https://www.unlock-bc.com/sites/default/files/news/images/thumbnail/ss-crypto-future.jpg);*/
+	/*background: url(https://coinjournal.net/wp-content/uploads/2017/09/Leverj-Unveils-Ethereum-Based-Decentralized-Crypto-Derivatives-Trading-Platform.jpg);*/
+	background: url(https://korporat.com/wp-content/uploads/2019/07/Bursa-Efek-Indonesia.jpg);
+	/*background: url();*/
+	/*background-color: #1ed611;*/
+	text-align: center;
+	font-weight: bold;
+	padding: 150px;
+	color: white;
+	text-shadow: 5px 5px 10px #12C918;
+}
+
+header {
+	display: inline;
+}
+
+nav {
+	background-color: #14b009;
+	padding: 5px;
+	top: 0px;
+	position: sticky;
+}
+
+nav a:hover {
+	font-weight: bold;
+	color: black;
+}
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 25px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 350;
+}
+
+#content {
+	float: left;
+	width: 75%;
+}
+
+aside {
+	float: right;
+	width: 25%;
+	padding-left: 20px;
+}
+
+main {
+	padding: 25px;
+	overflow: auto;
+}
+
+.card {
+	box-shadow: 1px 10px 10px 0 rgba(0,0,0,0.3);
+	border-radius: 2px;
+	padding: 50px;
+	margin-top: 23px;
+	background-color: white;
+
+}
+
+.profile header {
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+	#content,
+	aside {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+footer {
+	padding-left: 15px;
+	text-align: center;
+	background-color: #14b009;
+	padding: 15px;
+	color: white;
+}
+
+h2, h3 {
+	color: #1ed611;
+}
+
+.profile img {
+	width: 250px;
+}
+
